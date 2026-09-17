@@ -270,6 +270,17 @@ export default function Navbar({ theme, toggleTheme, onOpenBooking, onShowToast 
                         </li>
                       );
                     })}
+
+                    <li>
+                      <button
+                        type="button"
+                        className="mobile-menu-book-item"
+                        onClick={handleOpenBookingModal}
+                      >
+                        <span className="mobile-item-label">Book Now</span>
+                        <ChevronRight size={18} className="mobile-item-arrow" />
+                      </button>
+                    </li>
                   </ul>
                 </nav>
 
