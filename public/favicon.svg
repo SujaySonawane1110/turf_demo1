@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#080c14"/>
+  <rect x="2" y="2" width="44" height="44" rx="10" stroke="#0df082" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- Pitch outline -->
+  <rect x="10" y="8" width="28" height="32" rx="4" stroke="#0df082" stroke-width="2" stroke-opacity="0.9"/>
+  <!-- Pitch center line -->
+  <line x1="10" y1="24" x2="38" y2="24" stroke="#0df082" stroke-width="1.5" stroke-opacity="0.7"/>
+  <!-- Pitch center circle -->
+  <circle cx="24" cy="24" r="5" stroke="#0df082" stroke-width="1.5" stroke-opacity="0.7"/>
+  <circle cx="24" cy="24" r="2" fill="#f59e0b"/>
+  <!-- Goal areas -->
+  <path d="M18 8V13H30V8" stroke="#0df082" stroke-width="1.5" stroke-opacity="0.7"/>
+  <path d="M18 40V35H30V40" stroke="#0df082" stroke-width="1.5" stroke-opacity="0.7"/>
+</svg>
